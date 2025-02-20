@@ -1,0 +1,329 @@
+/* 
+? Tab : 768px (Tab : iPad Mini)
+? Mobile : 430px (Mobile : iPhone 14 Pro Max)
+*/
+
+/* 
+* 2X EXTRA LARGE DEVICES - xxl (Extra Large Desktops, 1400px and up) 
+*/
+@media (min-width: 1400px) {
+}
+
+/* 
+* EXTRA LARGE DEVICES - xl (Large Desktops, 1200px and up) 
+*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+
+/* 
+* LARGE DEVICES - lg (Desktops, 992px and up) 
+*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* 
+* MEDIUM DEVICES - md (Tablets, 768px and up) 
+*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .section-header h2 {
+    font-size: 100px;
+  }
+  .section-header h3 {
+    font-size: 30px;
+  }
+  .hero-image {
+    width: 260px;
+    height: 260px;
+  }
+  h1.stroke-heading {
+    font-size: 60px !important;
+  }
+  #home .home-text h2 {
+    font-size: 30px;
+  }
+  .hero {
+    padding: 40px 50px 0 !important;
+  }
+  section {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .home-text p {
+    font-size: 18px;
+  }
+  .navbar-nav {
+    padding: 15px 0 0 5px !important;
+  }
+  .nav-item {
+    padding-bottom: 15px;
+  }
+  .primary-brand-btn,
+  .secondary-brand-btn {
+    padding: 8px 20px;
+    font-size: 12px;
+  }
+  .nav-link,
+  .nav-link:focus {
+    font-size: 16px;
+  }
+  #about {
+    padding-top: 0;
+  }
+  .about-image {
+    margin: 0 auto;
+  }
+  #about .col-lg-7 h3 {
+    text-align: center;
+  }
+  .counter-icon {
+    font-size: 35px;
+  }
+  #skills {
+    padding-top: 0 !important;
+  }
+  #skills .progress {
+    height: 16px;
+  }
+  #skills .skill-name p {
+    font-size: 15px;
+  }
+  #services {
+    padding-top: 0 !important;
+  }
+  .service-item h4 {
+    font-size: 20px;
+  }
+  .service-item {
+    padding: 30px;
+    height: 300px;
+  }
+  .service-item .icon {
+    font-size: 30px;
+  }
+  .service-item p {
+    font-size: 14px;
+  }
+  #team {
+    padding-top: 0 !important;
+  }
+  .team_item_text h3 {
+    font-size: 20px;
+  }
+  .team_item_text p {
+    font-size: 12px;
+  }
+  .team_item_social_info a {
+    font-size: 18px;
+  }
+  #portfolio {
+    padding-top: 0 !important;
+  }
+  #portfolio #portfolio-filters li {
+    margin: 3px;
+    font-size: 12px;
+  }
+  #testimonials {
+    padding-top: 0 !important;
+  }
+  #faq-section {
+    padding-top: 0 !important;
+  }
+  .accordion-button {
+    font-size: 16px !important;
+  }
+  .accordion-body {
+    font-size: 13px;
+    padding: 20px !important;
+  }
+  #price {
+    padding-top: 0 !important;
+  }
+  #price .price-description ul li {
+    font-size: 14px;
+  }
+  #price .price-item .price-action .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  #price .price-title h2 {
+    font-size: 20px;
+  }
+  #price .price-prices h2 {
+    font-size: 35px;
+  }
+  #contact {
+    padding-top: 0 !important;
+  }
+  .footer_descriptions {
+    padding-top: 40px;
+  }
+}
+
+/* 
+* SMALL DEVICES - sm (Landscape Phones, 576px and up) 
+*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* 
+* EXTRA SMALL DEVICES (Portrait Phones, 320px and up) 
+*/
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .navbar-nav {
+    padding: 15px 0 0 5px !important;
+  }
+  .nav-item {
+    padding-bottom: 15px;
+  }
+  .primary-brand-btn,
+  .secondary-brand-btn {
+    padding: 8px 20px;
+    font-size: 12px;
+  }
+  .nav-link,
+  .nav-link:focus {
+    font-size: 16px;
+  }
+  .section-header h2 {
+    font-size: 55px;
+  }
+  .section-header h3 {
+    font-size: 16px;
+  }
+  .hero-image {
+    width: 260px;
+    height: 260px;
+  }
+  h1.stroke-heading {
+    font-size: 60px !important;
+  }
+  #home .home-text h2 {
+    font-size: 30px;
+  }
+  #home .home-text h2 {
+    font-size: 25px;
+  }
+  .hero {
+    padding: 40px 50px 0 !important;
+    text-align: center;
+  }
+  .hero-image {
+    margin: 15px auto;
+  }
+  header {
+    min-height: auto;
+  }
+  .about-image {
+    width: auto;
+    height: auto;
+  }
+  section {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .counter-icon {
+    font-size: 35px;
+  }
+  #skills {
+    padding-top: 0 !important;
+  }
+  #skills .progress {
+    height: 16px;
+  }
+  #skills .skill-name p {
+    font-size: 15px;
+  }
+  #services {
+    padding-top: 0 !important;
+  }
+  .service-item h4 {
+    font-size: 20px;
+  }
+  .service-item {
+    padding: 30px;
+    height: 300px;
+  }
+  .service-item .icon {
+    font-size: 30px;
+  }
+  .service-item p {
+    font-size: 14px;
+  }
+  #team {
+    padding-top: 0 !important;
+  }
+  .team_item_text h3 {
+    font-size: 20px;
+  }
+  .team_item_text p {
+    font-size: 12px;
+  }
+  .team_item_social_info a {
+    font-size: 18px;
+  }
+  #portfolio {
+    padding-top: 0 !important;
+  }
+  #portfolio #portfolio-filters li {
+    margin: 3px;
+    font-size: 12px;
+    padding: 7px 15px;
+    line-height: 14px;
+  }
+  #testimonials {
+    padding-top: 0 !important;
+  }
+  #faq-section {
+    padding-top: 0 !important;
+  }
+  .accordion-button {
+    font-size: 16px !important;
+  }
+  .accordion-body {
+    font-size: 13px;
+    padding: 20px !important;
+  }
+  #price {
+    padding-top: 0 !important;
+  }
+  #price .price-description ul li {
+    font-size: 14px;
+  }
+  #price .price-item .price-action .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  #price .price-title h2 {
+    font-size: 20px;
+  }
+  #price .price-prices h2 {
+    font-size: 35px;
+  }
+  #contact {
+    padding-top: 0 !important;
+    padding-bottom: 70px;
+  }
+  .footer_descriptions {
+    padding-top: 40px;
+  }
+  .footer_item h4 {
+    font-size: 12px;
+  }
+  .footer_item ul li a {
+    font-size: 10px;
+  }
+  .footer_item .social-links a {
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    font-size: 10px;
+    margin: 0 3px;
+  }
+  .footer_description p {
+    font-size: 12px;
+  }
+  .footer_items {
+    padding: 0 10px;
+    gap: 10px;
+  }
+}

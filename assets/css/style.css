@@ -1,10 +1,11 @@
 /* ======================
 * GOOGLE FONTS IMPORTED
 ====================== */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 /*
 ?   font-family: "Roboto", sans-serif;
+?   font-family: "Asap", serif;
 */
 
 /* ======================
@@ -261,7 +262,7 @@ body {
 }
 .section-header h2 {
   color: var(--primary-bg-color);
-  font-family: auto;
+  font-family: "Asap", serif;
   font-size: 160px;
   font-weight: 900;
   text-transform: uppercase;
@@ -380,7 +381,7 @@ header {
 ====================== */
 h1.stroke-heading {
   color: var(--primary-bg-color) !important;
-  font-family: auto;
+  font-family: "Asap", serif;
   font-size: 90px !important;
   font-weight: 900;
   margin: 0 !important;

@@ -97,6 +97,11 @@ body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
   overflow-x: hidden;
+
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 /* ======================

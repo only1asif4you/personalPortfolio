@@ -143,3 +143,24 @@ $(".back-to-top").click(function () {
 *  WOW JS / ANIMATE.CSS  
 ====================== */
 new WOW().init();
+
+/* ======================
+* Disable Inspect Element and Right-Click  
+====================== */
+document.addEventListener("contextmenu", function (event) {
+  event.preventDefault();
+});
+
+document.addEventListener("keydown", function (event) {
+  if (
+    event.key === "F12" ||
+    (event.ctrlKey && event.shiftKey && event.key === "I") ||
+    (event.ctrlKey && event.key === "U")
+  ) {
+    event.preventDefault();
+  }
+});
+
+document.addEventListener("copy", function (event) {
+  event.preventDefault();
+});
